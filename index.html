@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MileStone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading"><strong>Milestone 1 Static Resume Builder</strong></div>
+    <div class="main">
+        <form id="resumeform">
+            <div class="personal"><strong>Personal Info</strong></div>
+            <br>
+            <!-- For Uplaod Picture -->
+            <label for="picture" class="inputname"><strong>Upload Picture</strong></label>
+            <br>
+            <input type="file" name="picture" class="forpic" id="picture" accept="image">
+            <br>
+            <br>
+            <!-- For Name -->
+            <label for="name" class="inputname "><strong>Name:</strong></label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <!-- For Email -->
+            <label for="email" class="inputname "><strong>Email:</strong></label>
+            <input type="text" name="email" id="email" required>
+            <br><br>
+            <!-- For Contact-->
+            <label for="phone" class="inputname "><strong>Contact No:</strong></label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+            <!-- For  Address-->
+            <label for="Address" class="inputname "><strong>Address:</strong></label>
+            <input type="text" name="address" id="address" required>
+            <br><br>
+            <!-- For Skills -->
+            <div class="personal"><strong>Skills</strong></div>
+            <br>
+            <label for="skills" class="inputname " ><strong>Skills:</strong></label>
+            <input type="text" name="skills" id="skills" required>
+<br><br>
+            <!-- For Education -->
+           <div class="personal"><strong>Education</strong></div>
+           <br>
+          <label for="education" class="inputname"><strong>Education:</strong></label>
+          
+          <textarea name="education" id="education" required></textarea>
+          <br><br>
+          <!-- For Experience -->
+          <div class="personal"><strong>Experience</strong></div>
+          <br>
+          <label for="experience" class="inputname"><strong> Work Experience:</strong></label>
+          <textarea name="experience" id="experience" required></textarea>
+        <br><br><br>
+        <!-- For Submit Button -->
+
+        <input type="submit" class="inputname" value="Generate Resume">
+        </form>
+    </div>
+</body>
+
+</html>
